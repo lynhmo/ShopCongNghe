@@ -1,0 +1,14 @@
+2022-11-15T18:26:55+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-advanced-import-admin.php:2285
+Stack trace:
+#0 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-advanced-import-admin.php(2285): json_decode(Array, true)
+#1 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-elementor-import.php(138): Advanced_Import_Admin->isJson(Array)
+#2 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-elementor-import.php(224): Advanced_Import_Elementor->elementor_data(Array)
+#3 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-advanced-import-admin.php(2304): Advanced_Import_Elementor->process_elementor_posts()
+#4 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-advanced-import-admin.php(1245): Advanced_Import_Admin->import_menu_and_options()
+#5 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-includes\class-wp-hook.php(308): Advanced_Import_Admin->import_content('')
+#6 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_import_...')
+#9 {main}
+  thrown in D:\Study things\XAMPP\htdocs\STUDYDOC\PhanMemMaNguonMo\wp-content\plugins\advanced-import\admin\class-advanced-import-admin.php on line 2285
+
